@@ -22,7 +22,7 @@ def check(x, y, color):
                     break
                 print(color)
                 print(x+1, y+1)
-                sys.exit(0)
+                exit(0)
 
             nx += dx[i]
             ny += dy[i]
